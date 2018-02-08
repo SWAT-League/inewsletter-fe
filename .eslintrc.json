@@ -1,0 +1,19 @@
+{
+  "extends": "airbnb",
+  "plugins": ["react", "jsx-a11y", "import"],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "only-multiline",
+        "objects": "only-multiline",
+        "imports": "never",
+        "exports": "never",
+        "functions": "ignore"
+      }
+    ]
+  }
+}
